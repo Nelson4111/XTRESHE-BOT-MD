@@ -1,4 +1,3 @@
-
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -30,33 +29,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com_'
-global.sgh = 'https://github.com/xtreshebot'
-global.sgc = 'https://chat.whatsapp.com/Lvq5C2fpQ2U8Cg5NtmpUIF'
-global.sdc = 'https://discord.gg/WEJQjgTY7'
-global.snh = 'https://nhentai.net/g/365296/'
+global.sig = 'https://instagram.com/nelson_randanan'
+global.sgh = 'https://github.com/'
+global.sgc = 'https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib'
+global.sdc = 'https://discord.'
+global.snh = 'https://vt.tiktok.com/ZSd5Sc1Jc/'
 
 /*============== PAYMENT ==============*/
-global.pdana = '083825289775'
-global.povo = '083825289775'
-global.pgopay = '083825289775'
-global.ppulsa = '083825289775'
-global.ppulsa2 = '083825289775'
-global.psaweria = 'https://saweria.com/xtreshebot'
+global.pdana = '081241100804'
+global.povo = '081241100804'
+global.pgopay = '081241100804'
+global.ppulsa = '081241100804'
+global.ppulsa2 = '081241100804'
+global.psaweria = 'https://saweria.com/'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283190918670'
-global.nomorown = '6283825289775'
-global.namebot = 'xtreshebot-md'
-global.nameown = 'Dexter'
+global.nomorbot = '6281241100804'
+global.nomorown = '6281241100804'
+global.namebot = '𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃 '
+global.nameown = '𝐍𝐞𝐥𝐬𝐨𝐧'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283825289775'],
-  ['62882007804496'],
-  ['62882007804496'],
-  ['62882007804496', 'Dexter', true]
+  ['6281241100804'],
+  ['6281241100804'],
+  ['6281241100804'],
+  ['6281241100804', '𝐍𝐞𝐥𝐬𝐨𝐧', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -101,20 +100,20 @@ global.APIKeys = { // APIKey Here
 
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 Xtreshebot-MD あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘XTRESHE-MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = 'XTRESHE-MD'
+global.wm = '                「 𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃 あ⁩ 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃'
 global.botdate = ` 𝗗𝗮𝘁𝗲: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `⫹⫺ RPG BOT Whatsapp | By ${global.nameown}`
-global.author = '                「 xtreshebot-md あ⁩ 」'
+global.author = '             「 𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃 あ⁩ 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/28f893cbdb5437496876c.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/28f893cbdb5437496876c.jpg'
-global.giflogo = 'https://telegra.ph/file/50bf096a9a8a5ccb84398.mp4'
-global.thumbs = ['https://telegra.ph/file/28f893cbdb5437496876c.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
+global.thumb = 'https://telegra.ph/file/f773cdd3a31c5f051cf1b.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/f773cdd3a31c5f051cf1b.jpg'
+global.giflogo = 'https://telegra.ph/file/f773cdd3a31c5f051cf1b.jpg'
+global.thumbs = ['https://telegra.ph/file/f773cdd3a31c5f051cf1b.jpg', 'https://telegra.ph/file/f87047ec6e5f0d4a9ea91.jpg', 'https://telegra.ph/file/88edbb01051b397574def.jpg','https://telegra.ph/file/7957630a57078c5ec0400.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
 /*============== HENTAI ==============*/ //Ini cuma simpenan owner kanna kok :v
