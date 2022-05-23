@@ -31,13 +31,15 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 ꜱʜɪʀᴏʙᴏᴛᴢ-ᴍᴅ 」
+╭─「 𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃 」
 │ 👋🏻 Hai, %name!
 │
 │ 🧱 Limit : *%limit Limit*
 │ 🦸🏼‍♂️ Role : *%role*
 │ 🔼 Level : *%level (%exp / %maxexp)*
 │ 💫 Total XP : %totalexp ✨
+│
+│🎀 Link Grup : https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 │ 
 │ 📅 Tanggal: *%week, %date*
 │ 🕰️ Waktu: *%time*
@@ -150,8 +152,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    const pp = 'https://telegra.ph/file/41da653f2a4e3da200fc3.jpg'
-    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://github.com/BochilGaming/games-wabot', 'Github', null, null, [
+    const pp = 'https://telegra.ph/file/f773cdd3a31c5f051cf1b.jpg'
+    conn.sendHydrated(m.chat, text.trim(), author, pp, 'https://vt.tiktok.com/ZSd5Sc1Jc/', '𝐌𝐲 𝐓𝐢𝐤𝐭𝐨𝐤', null, null, [
       ['Donate', '/donasi'],
       ['Speed', '/ping'],
       ['Owner', '/owner']
