@@ -10,7 +10,7 @@ try {
       let img = await q.download()
       if (!img) throw 'Reply stiker nya!'
       stiker = await sticker(img, false, '🍀', '🎮 • Discord :\n⤷ https://discord.gg/WEJQjugTY7')
-    } else if (args[0]) stiker = await sticker(false, args[0], '🍀', '🎮 • Discord :\n⤷ https://discord.gg/WEJQjugTY7')
+    } else if (args[0]) stiker = await sticker(false, args[0], '𝙉𝙚𝙡𝘽𝙤𝙩-𝐌𝐃 ', 'By Nelson')
   } finally {
     if (stiker) conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
     else throw 'Conversion failed'
